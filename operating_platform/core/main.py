@@ -159,11 +159,20 @@ class VideoEncoderThread(threading.Thread):
         self.task_queue.put({"img_dir": img_dir, "output_path": output_path, "fps": fps})
 
     def stop(self):
-        """停止所有线程，等待任务完成"""
-        print("[VideoEncoderThread] Stopping encoder, waiting for all tasks to finish...")
+        """停止所有线程（不等待队列）"""
+        print("[VideoEncoderThread] Stopping encoder threads...")
         self.running = False
-        self.task_queue.join()
-        print("[VideoEncoderThread] All tasks done.")
+        # 给每个worker一个None任务，确保其能退出阻塞
+        for _ in range(self.num_workers):
+            self.task_queue.put(None)
+        print("[VideoEncoderThread] Stop signal sent to workers.")
+    def is_idle(self) -> bool:
+        """
+        检查编码器是否空闲：
+        - 队列为空且所有 ffmpeg 子进程执行完毕
+        """
+        return self.task_queue.empty()
+    
 def record_loop(cfg: ControlPipelineConfig, daemon: Daemon, video_encoder:VideoEncoderThread):
 
 
@@ -289,9 +298,10 @@ def record_loop(cfg: ControlPipelineConfig, daemon: Daemon, video_encoder:VideoE
                 record.stop()
                 record.save()
 
-                # 🚀 自动遍历所有相机目录进行视频编码
+                #  自动遍历所有相机目录进行视频编码
                 cameras = ["observation.images.image_top", "observation.images.image_wrist"]
                 for cam in cameras:
+                    logging.info(f"Encoding episode index: {record.last_record_episode_index}")
                     episode_dir = Path(record.record_cfg.root) / "images" / cam / f"episode_{record.last_record_episode_index:06d}"
                     video_output = Path(record.record_cfg.root) / "videos" / cam / f"episode_{record.last_record_episode_index:06d}.mp4"
                     if episode_dir.exists():
@@ -300,10 +310,15 @@ def record_loop(cfg: ControlPipelineConfig, daemon: Daemon, video_encoder:VideoE
                     else:
                         logging.warning(f"[record_loop] Image directory not found: {episode_dir}")
 
-                # ✅ 等待所有任务完成（阻塞等待）
+                #  等待所有任务完成（阻塞等待）
                 logging.info("[record_loop] Waiting for all video encoding tasks to finish...")
                 video_encoder.task_queue.join()  # 阻塞直到所有编码任务完成
-
+                   # 阻塞等待任务完成
+                logging.info("[record_loop] Waiting for all video encoding tasks to finish...")
+                while not video_encoder.task_queue.empty():
+                    remaining = video_encoder.task_queue.qsize()
+                    logging.info(f"[record_loop] {remaining} encoding tasks remaining...")
+                    time.sleep(1)
                 # 停止视频编码线程（安全退出）
                 video_encoder.stop()
                 video_encoder.join(timeout=5)
