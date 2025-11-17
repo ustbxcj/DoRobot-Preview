@@ -298,7 +298,7 @@ def record_loop(cfg: ControlPipelineConfig, daemon: Daemon, video_encoder:VideoE
                 record.stop()
                 record.save()
 
-                #  自动遍历所有相机目录进行视频编码
+                # 🚀 自动遍历所有相机目录进行视频编码
                 cameras = ["observation.images.image_top", "observation.images.image_wrist"]
                 for cam in cameras:
                     logging.info(f"Encoding episode index: {record.last_record_episode_index}")
@@ -310,10 +310,10 @@ def record_loop(cfg: ControlPipelineConfig, daemon: Daemon, video_encoder:VideoE
                     else:
                         logging.warning(f"[record_loop] Image directory not found: {episode_dir}")
 
-                #  等待所有任务完成（阻塞等待）
+                # ✅ 等待所有任务完成（阻塞等待）
                 logging.info("[record_loop] Waiting for all video encoding tasks to finish...")
                 video_encoder.task_queue.join()  # 阻塞直到所有编码任务完成
-                   # 阻塞等待任务完成
+                   # ✅ 阻塞等待任务完成
                 logging.info("[record_loop] Waiting for all video encoding tasks to finish...")
                 while not video_encoder.task_queue.empty():
                     remaining = video_encoder.task_queue.qsize()

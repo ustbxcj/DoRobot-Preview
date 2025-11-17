@@ -524,7 +524,7 @@ class SO101RobotConfig(ManipulatorRobotConfig):
                 height=480,
             ),
             "image_wrist": OpenCVCameraConfig(
-                camera_index=1,
+                camera_index=2,
                 fps=30,
                 width=640,
                 height=480,
@@ -532,7 +532,7 @@ class SO101RobotConfig(ManipulatorRobotConfig):
         }
     )
 
-    use_videos: bool = True
+    use_videos: bool = False
 
     microphones: dict[str, int] = field(
         default_factory=lambda: {

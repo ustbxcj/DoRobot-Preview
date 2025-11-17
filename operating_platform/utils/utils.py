@@ -9,6 +9,7 @@ from pathlib import Path
 
 import numpy as np
 import torch
+import torch_npu
 
 
 def inside_slurm():
@@ -95,6 +96,9 @@ def auto_select_torch_device() -> torch.device:
     elif torch.backends.mps.is_available():
         logging.info("Metal backend detected, using cuda.")
         return torch.device("mps")
+    elif torch_npu.npu.is_available():
+        logging.info("NPU backend detected, using npu.")
+        return torch.device("npu")
     else:
         logging.warning("No accelerated backend detected. Using default cpu, this will be slow.")
         return torch.device("cpu")
