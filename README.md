@@ -106,21 +106,33 @@ pip install -e .
 ```
 
 ### 1.3. Calibrate SO101 Arm
-
-calibrate leader arm
-
+对1号臂进行矫正
+calibrate leader arm1---矫正1号臂主动臂
 ```
 cd operating_platform/robot/components/arm_normal_so101_v1/
 dora run dora_calibrate_leader.yml
 ```
 
-calibrate follower arm
-
+calibrate follower arm1---矫正1号臂从动臂
 ```
 cd operating_platform/robot/components/arm_normal_so101_v1/
 dora run dora_calibrate_follower.yml
 ```
 
+
+对2号臂进行矫正
+calibrate leader arm2---矫正2号臂主动臂
+```
+cd operating_platform/robot/components/arm_normal_so101_v1/
+dora run dora_calibrate_leader2.yml
+```
+
+calibrate follower arm2---矫正2号臂从动臂
+```
+cd operating_platform/robot/components/arm_normal_so101_v1/
+dora run dora_calibrate_follower2.yml
+```
+矫正文件存储在arm_normal_so101_v1/.calibration
 ## 2. Teleoperate SO101 Arm
 
 ```
@@ -197,6 +209,8 @@ bash scripts/run_so101_cli.sh
 ```
 
 You can modify the task name and task description by adjusting the parameters within the run_so101_cli.sh file.
+
+
 
 
 # Acknowledgment
