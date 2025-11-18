@@ -1,6 +1,6 @@
 # DoRobot-Preview 
 
-> GOSIM 2025 - Dora LeRobot Hackthon - Version
+>  Dora LeRobot  Version
 
 ## 0. Start (with Docker) coming soon
 
@@ -107,6 +107,7 @@ pip install -e .
 
 ### 1.3. Calibrate SO101 Arm
 对1号臂进行矫正
+```
 calibrate leader arm1---矫正1号臂主动臂
 ```
 cd operating_platform/robot/components/arm_normal_so101_v1/
@@ -121,6 +122,7 @@ dora run dora_calibrate_follower.yml
 
 
 对2号臂进行矫正
+```
 calibrate leader arm2---矫正2号臂主动臂
 ```
 cd operating_platform/robot/components/arm_normal_so101_v1/

@@ -495,6 +495,18 @@ class SO101RobotConfig(ManipulatorRobotConfig):
                     "joint_gripper": [6, "sts3215"],
                 },
             ),
+            "second": FeetechMotorsBusConfig(
+                port="/dev/ttyACM2",
+                motors={
+                    # name: (index, model)
+                    "joint_shoulder_pan": [1, "sts3215"],
+                    "joint_shoulder_lift": [2, "sts3215"],
+                    "joint_elbow_flex": [3, "sts3215"],
+                    "joint_wrist_flex": [4, "sts3215"],
+                    "joint_wrist_roll": [5, "sts3215"],
+                    "joint_gripper": [6, "sts3215"],
+                },
+            ),
         }
     )
 
@@ -502,6 +514,18 @@ class SO101RobotConfig(ManipulatorRobotConfig):
         default_factory=lambda: {
             "main": FeetechMotorsBusConfig(
                 port="/dev/ttyACM1",
+                motors={
+                    # name: (index, model)
+                    "joint_shoulder_pan": [1, "sts3215"],
+                    "joint_shoulder_lift": [2, "sts3215"],
+                    "joint_elbow_flex": [3, "sts3215"],
+                    "joint_wrist_flex": [4, "sts3215"],
+                    "joint_wrist_roll": [5, "sts3215"],
+                    "joint_gripper": [6, "sts3215"],
+                },
+            ),
+            "second": FeetechMotorsBusConfig(
+                port="/dev/ttyACM3",
                 motors={
                     # name: (index, model)
                     "joint_shoulder_pan": [1, "sts3215"],
@@ -529,73 +553,7 @@ class SO101RobotConfig(ManipulatorRobotConfig):
                 width=640,
                 height=480,
             ),
-        }
-    )
-
-    use_videos: bool = False
-
-    microphones: dict[str, int] = field(
-        default_factory=lambda: {
-            # "audio_right": 2,
-            # "audio_left": 4,
-        }
-    )
-
-
-
-
-@RobotConfig.register_subclass("so101_2")
-@dataclass
-class SO101_2RobotConfig(ManipulatorRobotConfig):
-    # calibration_dir: str = ".cache/calibration/so101"
-    # `max_relative_target` limits the magnitude of the relative positional target vector for safety purposes.
-    # Set this to a positive scalar to have the same value for all motors, or a list that is the same length as
-    # the number of motors in your follower arms.
-    # max_relative_target: int | None = None
-#主动臂
-    leader_arms: dict[str, MotorsBusConfig] = field(
-        default_factory=lambda: {
-            "main": FeetechMotorsBusConfig(
-                port="/dev/ttyACM2",
-                motors={
-                    # name: (index, model)
-                    "joint_shoulder_pan": [1, "sts3215"],
-                    "joint_shoulder_lift": [2, "sts3215"],
-                    "joint_elbow_flex": [3, "sts3215"],
-                    "joint_wrist_flex": [4, "sts3215"],
-                    "joint_wrist_roll": [5, "sts3215"],
-                    "joint_gripper": [6, "sts3215"],
-                },
-            ),
-        }
-    )
-#从动臂
-    follower_arms: dict[str, MotorsBusConfig] = field(
-        default_factory=lambda: {
-            "main": FeetechMotorsBusConfig(
-                port="/dev/ttyACM3",
-                motors={
-                    # name: (index, model)
-                    "joint_shoulder_pan": [1, "sts3215"],
-                    "joint_shoulder_lift": [2, "sts3215"],
-                    "joint_elbow_flex": [3, "sts3215"],
-                    "joint_wrist_flex": [4, "sts3215"],
-                    "joint_wrist_roll": [5, "sts3215"],
-                    "joint_gripper": [6, "sts3215"],
-                },
-            ),
-        }
-    )
-#摄像头相关问题是否需要服用还是维一？？？
-    cameras: dict[str, CameraConfig] = field(
-        default_factory=lambda: {
-            "image_top": OpenCVCameraConfig(
-                camera_index=0,
-                fps=30,
-                width=640,
-                height=480,
-            ),
-            "image_wrist": OpenCVCameraConfig(
+            "image_wrist2": OpenCVCameraConfig(
                 camera_index=4,
                 fps=30,
                 width=640,
@@ -612,3 +570,7 @@ class SO101_2RobotConfig(ManipulatorRobotConfig):
             # "audio_left": 4,
         }
     )
+
+
+
+

@@ -9,7 +9,7 @@ nodes:
       GET_DEVICE_FROM: PORT
       PORT: /dev/ttyACM2
       ARM_NAME: SO101-leader2
-      ARM_ROLE: leader2
+      ARM_ROLE: leader
 
   - id: arm_so101_follower2
     path: main.py
@@ -22,7 +22,7 @@ nodes:
       GET_DEVICE_FROM: PORT
       PORT: /dev/ttyACM3
       ARM_NAME: SO101-follower2
-      ARM_ROLE: follower2
+      ARM_ROLE: follower
 
   - id: print_joint
     path: print_joint.py

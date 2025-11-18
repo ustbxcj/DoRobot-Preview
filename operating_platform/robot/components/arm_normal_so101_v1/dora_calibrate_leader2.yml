@@ -12,5 +12,5 @@ nodes:
       GET_DEVICE_FROM: PORT
       PORT: /dev/ttyACM2
       ARM_NAME: SO101-leader2
-      ARM_ROLE: leader2
+      ARM_ROLE: leader
 
