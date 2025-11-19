@@ -218,7 +218,8 @@ bash scripts/run_so101_cli.sh
 You can modify the task name and task description by adjusting the parameters within the run_so101_cli.sh file.
 
 
-
+⭐相关注意事项⭐
+如果没有NPU的话需要将(operating_platform/utils/utils.py里面的)第12行import torch_npu注释
 
 # Acknowledgment
  - LeRobot 🤗: [https://github.com/huggingface/lerobot](https://github.com/huggingface/lerobot)
