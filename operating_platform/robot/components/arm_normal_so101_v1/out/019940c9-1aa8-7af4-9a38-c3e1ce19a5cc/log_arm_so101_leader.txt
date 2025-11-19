@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "/home/HwHiAiUser/.conda/envs/dr-robot-so101/lib/python3.10/site-packages/serial/serialposix.py", line 621, in write
+    n = os.write(self.fd, d)
+OSError: [Errno 19] No such device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/HwHiAiUser/DoRobot-Preview/operating_platform/robot/components/arm_normal_so101_v1/main.py", line 135, in <module>
+    main()
+  File "/home/HwHiAiUser/DoRobot-Preview/operating_platform/robot/components/arm_normal_so101_v1/main.py", line 123, in main
+    present_pos = arm_bus.sync_read("Present_Position")
+  File "/home/HwHiAiUser/DoRobot-Preview/operating_platform/robot/components/arm_normal_so101_v1/motors/motors_bus.py", line 1091, in sync_read
+    ids_values, _ = self._sync_read(
+  File "/home/HwHiAiUser/DoRobot-Preview/operating_platform/robot/components/arm_normal_so101_v1/motors/motors_bus.py", line 1114, in _sync_read
+    comm = self.sync_reader.txRxPacket()
+  File "/home/HwHiAiUser/.conda/envs/dr-robot-so101/lib/python3.10/site-packages/scservo_sdk/group_sync_read.py", line 77, in txRxPacket
+    result = self.txPacket()
+  File "/home/HwHiAiUser/.conda/envs/dr-robot-so101/lib/python3.10/site-packages/scservo_sdk/group_sync_read.py", line 55, in txPacket
+    return self.ph.syncReadTx(self.port, self.start_address, self.data_length, self.param,
+  File "/home/HwHiAiUser/.conda/envs/dr-robot-so101/lib/python3.10/site-packages/scservo_sdk/protocol_packet_handler.py", line 443, in syncReadTx
+    result = self.txPacket(port, txpacket)
+  File "/home/HwHiAiUser/.conda/envs/dr-robot-so101/lib/python3.10/site-packages/scservo_sdk/protocol_packet_handler.py", line 96, in txPacket
+    written_packet_length = port.writePort(txpacket)
+  File "/home/HwHiAiUser/.conda/envs/dr-robot-so101/lib/python3.10/site-packages/scservo_sdk/port_handler.py", line 64, in writePort
+    return self.ser.write(packet)
+  File "/home/HwHiAiUser/.conda/envs/dr-robot-so101/lib/python3.10/site-packages/serial/serialposix.py", line 655, in write
+    raise SerialException('write failed: {}'.format(e))
+serial.serialutil.SerialException: write failed: [Errno 19] No such device

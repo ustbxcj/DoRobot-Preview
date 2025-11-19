@@ -1,0 +1,5 @@
+2025-09-13T01:39:36.030937Z  INFO dora_daemon::coordinator: Connected to dora-coordinator at 127.0.0.1:53290
+2025-09-13T01:39:36.060829Z  INFO zenoh::net::runtime: Using ZID: d531bbb079a8a05988e4555a5312949b
+2025-09-13T01:39:36.118646Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::c3d:672f:444d:2df8]:5456
+2025-09-13T01:39:36.118697Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/192.168.43.113:5456
+2025-09-13T01:39:36.118816Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446

@@ -1,0 +1,3 @@
+
+Running calibration of SO101-follower
+Move SO101-follower to the middle of its range of motion and press key 'm'....

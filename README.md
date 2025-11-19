@@ -35,8 +35,8 @@ lerobot_lite = { path = "operating_platform/lerobot_lite"} -->
 get this project
 
 ```sh
-git clone https://github.com/ustbxcj/DoRobotTest.git
-cd DoRobotTest
+git clone https://github.com/ustbxcj/DoRobot-Preview.git
+cd DoRobot-Preview
 ```
 
 ### 1.1. Initital DoRobot enviroment
@@ -106,6 +106,7 @@ pip install -e .
 ```
 
 ### 1.3. Calibrate SO101 Arm
+```
 对1号臂进行矫正
 ```
 calibrate leader arm1---矫正1号臂主动臂
@@ -119,8 +120,10 @@ calibrate follower arm1---矫正1号臂从动臂
 cd operating_platform/robot/components/arm_normal_so101_v1/
 dora run dora_calibrate_follower.yml
 ```
-
-
+```
+2号臂由于摄像头，存在一定问题，目前使用一个主动臂和一个从动臂
+```
+<!--
 对2号臂进行矫正
 ```
 calibrate leader arm2---矫正2号臂主动臂
@@ -134,6 +137,8 @@ calibrate follower arm2---矫正2号臂从动臂
 cd operating_platform/robot/components/arm_normal_so101_v1/
 dora run dora_calibrate_follower2.yml
 ```
+-->
+
 矫正文件存储在arm_normal_so101_v1/.calibration
 ## 2. Teleoperate SO101 Arm
 

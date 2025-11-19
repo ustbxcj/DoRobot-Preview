@@ -77,7 +77,7 @@ class VideoEncoderThread(threading.Thread):
     - 支持多线程并发加速编码
     """
 
-    def __init__(self, num_workers: int = 3):
+    def __init__(self, num_workers: int = 2):
         """
         :param num_workers: 并发 ffmpeg 编码线程数（建议 2~4）
         """
@@ -299,7 +299,8 @@ def record_loop(cfg: ControlPipelineConfig, daemon: Daemon, video_encoder:VideoE
                 record.save()
 
                 # 🚀 自动遍历所有相机目录进行视频编码
-                cameras = ["observation.images.image_top", "observation.images.image_wrist","observation.images.image_wrist2"]
+                # cameras = ["observation.images.image_top", "observation.images.image_wrist","observation.images.image_wrist2"]
+                cameras = ["observation.images.image_top", "observation.images.image_wrist"]
                 for cam in cameras:
                     logging.info(f"Encoding episode index: {record.last_record_episode_index}")
                     episode_dir = Path(record.record_cfg.root) / "images" / cam / f"episode_{record.last_record_episode_index:06d}"
@@ -331,7 +332,8 @@ def record_loop(cfg: ControlPipelineConfig, daemon: Daemon, video_encoder:VideoE
         record.save()
 
         # 异步添加视频编码任务
-        cameras = ["observation.images.image_top", "observation.images.image_wrist","observation.images.image_wrist2"]
+        # cameras = ["observation.images.image_top", "observation.images.image_wrist","observation.images.image_wrist2"]
+        cameras = ["observation.images.image_top", "observation.images.image_wrist"]
         for cam in cameras:
             episode_dir = Path(record.record_cfg.root) / "images" / cam / f"episode_{record.last_record_episode_index:06d}"
             video_output = Path(record.record_cfg.root) / "videos" / cam / f"episode_{record.last_record_episode_index:06d}.mp4"

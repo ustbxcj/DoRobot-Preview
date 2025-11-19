@@ -60,7 +60,6 @@ nodes:
       ARM_ROLE: follower
       CALIBRATION_DIR: ../../components/arm_normal_so101_v1/.calibration/
 
-
   - id: arm_so101_leader2
     path: ../../components/arm_normal_so101_v1/main.py
     inputs:
@@ -71,7 +70,7 @@ nodes:
       GET_DEVICE_FROM: PORT
       PORT: /dev/ttyACM2
       ARM_NAME: SO101-leader2
-      ARM_ROLE: leader2
+      ARM_ROLE: leader
       CALIBRATION_DIR: ../../components/arm_normal_so101_v1/.calibration/
 
   - id: arm_so101_follower2
@@ -86,7 +85,7 @@ nodes:
       GET_DEVICE_FROM: PORT
       PORT: /dev/ttyACM3
       ARM_NAME: SO101-follower2
-      ARM_ROLE: follower2
+      ARM_ROLE: follower
       CALIBRATION_DIR: ../../components/arm_normal_so101_v1/.calibration/
 
   - id: so101_zeromq
@@ -97,7 +96,7 @@ nodes:
       image_wrist2: camera_wrist2/image
       main_leader_joint: arm_so101_leader/joint
       main_follower_joint: arm_so101_follower/joint
-      main_leader_joint2: arm_so101_leader2/joint
-      main_follower_joint2: arm_so101_follower2/joint
+      second_leader_joint: arm_so101_leader2/joint
+      second_follower_joint: arm_so101_follower2/joint
     outputs:
       - action_joint

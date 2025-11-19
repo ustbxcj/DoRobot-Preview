@@ -1,0 +1,37 @@
+Traceback (most recent call last):
+  File "/home/HwHiAiUser/.conda/envs/dr-robot-so101/lib/python3.10/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyACM0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/HwHiAiUser/DoRobot-Preview/operating_platform/robot/components/arm_normal_so101_v1/motors/motors_bus.py", line 443, in _connect
+    if not self.port_handler.openPort():
+  File "/home/HwHiAiUser/.conda/envs/dr-robot-so101/lib/python3.10/site-packages/scservo_sdk/port_handler.py", line 25, in openPort
+    return self.setBaudRate(self.baudrate)
+  File "/home/HwHiAiUser/.conda/envs/dr-robot-so101/lib/python3.10/site-packages/scservo_sdk/port_handler.py", line 49, in setBaudRate
+    return self.setupPort(baud)
+  File "/home/HwHiAiUser/.conda/envs/dr-robot-so101/lib/python3.10/site-packages/scservo_sdk/port_handler.py", line 95, in setupPort
+    self.ser = serial.Serial(
+  File "/home/HwHiAiUser/.conda/envs/dr-robot-so101/lib/python3.10/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+  File "/home/HwHiAiUser/.conda/envs/dr-robot-so101/lib/python3.10/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyACM0: [Errno 2] No such file or directory: '/dev/ttyACM0'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/HwHiAiUser/DoRobot-Preview/operating_platform/robot/components/arm_normal_so101_v1/calibrate.py", line 197, in <module>
+    main()
+  File "/home/HwHiAiUser/DoRobot-Preview/operating_platform/robot/components/arm_normal_so101_v1/calibrate.py", line 132, in main
+    arm_bus.connect()
+  File "/home/HwHiAiUser/DoRobot-Preview/operating_platform/robot/components/arm_normal_so101_v1/motors/motors_bus.py", line 437, in connect
+    self._connect(handshake)
+  File "/home/HwHiAiUser/DoRobot-Preview/operating_platform/robot/components/arm_normal_so101_v1/motors/motors_bus.py", line 448, in _connect
+    raise ConnectionError(
+ConnectionError: 
+Could not connect on port '/dev/ttyACM0'. Make sure you are using the correct port.
+Try running `lerobot-find-port`
+

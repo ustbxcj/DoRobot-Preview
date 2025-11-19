@@ -1,0 +1,370 @@
+Node print_joint: recieved dataflow "joint": [  -7.5164833  -103.56044      97.97802      36.087914      0.61538464
+    0.3417635 ]
+Node print_joint: recieved dataflow "joint": [  -3.2967033 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.2967033 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.2967033 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.2967033 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.2967033 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.2967033 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.2967033 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.78022      2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.2857144
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.4615386
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.6373627
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.6373627
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.6373627
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.7252748
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.3846154 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.4725275 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.813187
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.6373627
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.1978023
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.1098902
+    0.3417635]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     2.0219781
+    1.0252905]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+    2.6657553]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+    5.3315105]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+    8.680793 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   12.16678  ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   15.516063 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   18.933699 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   22.214628 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   25.768969 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   29.186604 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   32.604237 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   36.090225 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   38.892685 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   40.123035 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   41.07997  ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   41.7635   ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   42.173615 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   42.51538  ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   42.720436 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   42.857143 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   42.925495 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   42.925495 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.062202 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.062202 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.130554 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
+Node print_joint: recieved dataflow "joint": [  -3.5604396 -103.56044     97.97802     39.868134     1.9340659
+   43.198906 ]
